@@ -5,7 +5,9 @@
 Evento est une plateforme novatrice dédiée à la gestion et à la réservation des places d'événements, offrant une expérience utilisateur optimale aux participants, organisateurs et administrateurs.
 
 ## Fonctionnalités Principales
-Utilisateur
+
+
+## Utilisateur
 ### Inscription et Connexion: 
 Les utilisateurs peuvent s'inscrire en fournissant leur nom, adresse e-mail et mot de passe, et se connecter à leur compte avec leurs identifiants.
 ### Réinitialisation du Mot de Passe:
