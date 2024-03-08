@@ -1,5 +1,13 @@
 <?php
 
+<<<<<<< HEAD
+=======
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\EventController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\UserController;
+>>>>>>> 1c6d3528dce204dca9665309fcb829d7e59f8e72
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\EventController;
@@ -54,4 +62,15 @@ Route::put('/events/{id}','update')->name('events.update');
 Route::delete('/events/{id}','destroy')->name('events.destroy');
 Route::get('/events/search', 'search')->name('events.search');
 
+<<<<<<< HEAD
 });
+=======
+// Route::get('/events', [EventController::class, 'index'])->name('events.index');
+// Route::get('/events/create', [EventController::class, 'create'])->name('events.create');
+// Route::post('/events', [EventController::class, 'store'])->name('events.store');
+// Route::get('/events/{id}', [EventController::class, 'show'])->name('events.show');
+// Route::get('/events/{id}/edit', [EventController::class, 'edit'])->name('events.edit');
+// Route::put('/events/{id}', [EventController::class, 'update'])->name('events.update');
+// Route::delete('/events/{id}', [EventController::class, 'destroy'])->name('events.destroy');
+
+>>>>>>> 1c6d3528dce204dca9665309fcb829d7e59f8e72

@@ -21,9 +21,10 @@ class EventController extends Controller
 
     public function showUserEvents(User $user)
     {
+        $categories = Category::all();
         $ticketTypes = Ticket_types::all();
         $events = $user->Events()->orderByDesc('created_at')->get();
-        return view('main.index', compact('events','ticketTypes'));
+        return view('main.index', compact('events','ticketTypes','categories'));
     }
 
     public function create()

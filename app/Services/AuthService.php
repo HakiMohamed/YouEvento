@@ -1,6 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1c6d3528dce204dca9665309fcb829d7e59f8e72
 namespace App\Services;
 
 use Illuminate\Support\Facades\Auth;
@@ -47,4 +50,15 @@ class AuthService implements AuthInterface
             'password' => ['required', 'string', 'min:8'],
         ])->validate();
     }
+<<<<<<< HEAD
+=======
+
+    protected function validateLoginCredentials(array $credentials)
+    {
+        return validator($credentials, [
+            'email' => ['required', 'email'],
+            'password' => ['required'],
+        ])->validate();
+    }
+>>>>>>> 1c6d3528dce204dca9665309fcb829d7e59f8e72
 }
