@@ -1,52 +1,66 @@
-# YouEvento
-# Projet YouEvento
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
+## About Laravel
 
-Evento est une plateforme novatrice dédiée à la gestion et à la réservation des places d'événements, offrant une expérience utilisateur optimale aux participants, organisateurs et administrateurs.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-## Fonctionnalités Principales
-Utilisateur
-### Inscription et Connexion: 
-Les utilisateurs peuvent s'inscrire en fournissant leur nom, adresse e-mail et mot de passe, et se connecter à leur compte avec leurs identifiants.
-### Réinitialisation du Mot de Passe:
-Les utilisateurs peuvent réinitialiser leur mot de passe en cas d'oubli en recevant un e-mail de réinitialisation.
-### Consultation des Événements: 
-Les utilisateurs peuvent consulter la liste des événements disponibles sur la plateforme avec pagination pour faciliter la navigation, filtrer les événements par catégorie, et rechercher des événements par titre.
-### Réservation d'Événements:
-Les utilisateurs peuvent réserver une place pour un événement et générer un ticket une fois la réservation confirmée.
-## Organisateur
-### Création et Gestion des Événements:
-Les organisateurs peuvent créer un nouvel événement en spécifiant son titre, sa description, sa date, son lieu, sa catégorie et le nombre de places disponibles, et gérer leurs événements existants.
-### Statistiques sur les Réservations: 
-Les organisateurs ont accès à des statistiques sur les réservations de leurs événements, et peuvent choisir entre une acceptation automatique des réservations ou une validation manuelle.
-## Administrateur
-### Gestion des Utilisateurs et Catégories: 
-Les administrateurs peuvent gérer les utilisateurs en restreignant leur accès, et gérer les catégories d'événements en ajoutant, modifiant ou supprimant des catégories.
-## Validation des Événements:
-Les administrateurs peuvent valider les événements créés par les organisateurs avant leur publication sur la plateforme, et ont accès à des statistiques.
-### Modalités Pédagogiques
-Travail: Individuel
-Durée de Travail: 5 jours
-Date de Lancement du Brief: 01/03/2024 à 17:00
-Date Limite de Soumission: 08/03/2024 avant 17:30
-## Modalités d'Évaluation
-Présentation publique du travail devant les jurys avec démonstration, explication de la conception, la base de données, et code source.
-Code Review et Questions Culture Web (15 minutes)
-Mise en Situation (15 minutes)
-## Livrables
-Gestion des tâches sur un Scrum Board avec tous les User Stories.
-Lien du Repository Github du projet.
-Lien de la Présentation.
-Diagrammes UML (Diagramme de Classes, Diagramme de Cas d'Utilisation).
-## Critères de Performance
-Implémentation des Bonnes Pratiques pour CRUD dans Laravel.
-Règles de Validation des Formulaires en Laravel.
-Utilisation de Middleware pour la Validation.
-Implémentation des Seeders et Factories.
-Optimisation des Requêtes Eloquent.
-Gestion Appropriée des Relations Eloquent.
-Utilisation de Soft Deletes.
-Cache des Requêtes Fréquemment Utilisées.
-Tests de Performance.
-Optimisation des Vues.
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
+- **[OP.GG](https://op.gg)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
